@@ -324,3 +324,79 @@
 // const result = ObjInArr(userObject);
 // console.log(result);
 
+////////////////////////////////////////////////////////////////////////
+
+// ЗАДАЧА No11 | создайте объект person с методом introduce,
+//который выводит в консоль сообщение "Меня зовут [имя]" для имени,
+//хранящегося в свойстве объекта name.
+
+// const person = {
+//   name: "Муртуз",
+//   introduce: function () {
+//     return `Меня зовут ${person.name}`;
+//   },
+// };
+
+// const result = person.introduce();
+// console.log(result);
+
+///////////////////////////////////////////////////////////////////////
+
+// ЗАДАЧА No12 | cоздайте функцию calculateArea, которая принимает ширину и высоту прямоугольника
+//в качестве параметров. Затем создайте объект rectangle с методом getArea,
+//который использует функцию calculateArea, чтобы вычислить и вернуть площадь прямоугольника.
+
+// let widthProperty = 60;
+// let heightProperty = 20;
+
+// function calculateArea(width, height) {
+//   let area = width * height;
+//   return area;
+// }
+
+// const rectangle = {
+//   getArea: function (width, height) {
+//     return calculateArea(width, height);
+//   },
+// };
+
+// const result = rectangle.getArea(widthProperty, heightProperty);
+
+// console.log(result);
+
+///////////////////////////////////////////////////////////////////////////////
+
+//ЗАДАЧА No13 | создайте объект car с свойством speed и методом accelerate,
+//который принимает значение, на которое нужно увеличить скорость,
+//и увеличивает скорость объекта car на это значение.
+
+// let accelerationValue = 20;
+// const car = {
+//   speed: 120,
+//   accelerate: function (acceleration) {
+//     car.speed += acceleration;
+//     return car.speed;
+//   },
+// };
+// const result = car.accelerate(accelerationValue);
+// console.log(result);
+
+/////////////////////////////////////////////////////////////////////////////
+
+//ЗАДАЧА No14 |Создайте функцию-конструктор Book,
+//которая принимает параметры title и author,
+//и создает объект книги с этими свойствами.
+//Затем добавьте метод printInfo, который выводит информацию о книге в консоль
+//в формате "Название: [название], Автор: [автор]".
+
+//function bookFn(title, author){
+// this.title = title
+//this.author = author
+//  this.printInfo = function(){
+//  return Название:${this.title}, Автор:${this.author}
+//}
+//}
+//const bookObj = new bookFn("Жизнесмен", "Мурад Алискеров")
+//console.log(bookObj.printInfo())
+
+
