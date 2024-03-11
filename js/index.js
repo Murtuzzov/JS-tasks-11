@@ -399,4 +399,30 @@
 //const bookObj = new bookFn("Жизнесмен", "Мурад Алискеров")
 //console.log(bookObj.printInfo())
 
+///////////////////////////////////////////////////////////////////////////
+//ЗАДАЧА No15 | создайте объект calculator с методами add, subtract, multiply и divide, 
+//которые принимают два числа и возвращают результат соответствующей арифметической операции.
+//const calculator = {
+//  add: function(num1, num2){
+//    let sum = num1+num2;
+//    return sum;
+//  }, 
+//  subtract: function(num1, num2){
+//    let sum = num1-num2;
+//    return sum;
+//  }, 
+ // multiply: function(num1, num2){
+//    let sum = num1*num2;
+//    return sum;
+ // }, 
+ // divide: function(num1, num2){
+  //  let sum = num1/num2
+  //  return sum;
+//  }, 
+//}
+
+
+//const result = calculator.add(5,4);
+//console.log(result)
+
 
